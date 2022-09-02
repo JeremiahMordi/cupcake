@@ -6,7 +6,7 @@
 
 body{
     background-image: url(../img/best-chocolate-cupcakes-recipe-SQUARE.jpg);
-    background-size: 1400px;    
+    background-size: 1400px;
     background-repeat: no-repeat;
 }
 
@@ -36,11 +36,15 @@ p.menu{
 }
 
 li.flashy{
-    color: b
+    color: red;
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 li.flashy:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: darkred;
+    color: gray;
 }
 
