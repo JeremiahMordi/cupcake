@@ -1,7 +1,46 @@
-body{
-    background-image: url(../img/best-chocolate-cupcakes-recipe-SQUARE.jpg);
+*{
+    padding: 0;
+    margin: 0;
 }
 
-h1.heading{
-    color: blue;
+
+body{
+    background-image: url(../img/best-chocolate-cupcakes-recipe-SQUARE.jpg);
+    background-size: 1400px;    
+    background-repeat: no-repeat;
 }
+
+section.heading-section{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}
+h1.heading{
+    color: chocolate;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.menu{
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 30px;  
+}
+
+li.flashy{
+    color: b
+}
+li.flashy:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkred;
+}
+
